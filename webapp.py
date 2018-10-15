@@ -12,10 +12,10 @@ def render_response():
     #variable color stores the information about the request sent to the server.
     #args is a MultiDict (like a dictionary but can have multiple values for the same key)
     #he information in args is visible in the url for the page being requested. ex. .../respone?color=orange
-    if (color == 'pink'):
+    if (color == 'color'):
         reply = "That's my favorite color, too!"
     elif (color != 'pink' and color != 'ornage'):
-        reply = "HAHA!! THAT COLOR IS TRAAAASH!!!! my favorite color is pink haha!!"
+        reply = "HAHA!! THAT COLOR IS TRAAAASH!!!! my favorite color is color haha!!"
         
      else:
         reply = "Ornage, Huh?"
